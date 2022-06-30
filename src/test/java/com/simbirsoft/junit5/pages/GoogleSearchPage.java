@@ -1,4 +1,4 @@
-package com.simbirsoft.junit5.components;
+package com.simbirsoft.junit5.pages;
 
 import com.codeborne.selenide.SelenideElement;
 

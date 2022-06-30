@@ -1,13 +1,10 @@
 package com.simbirsoft.junit5.tests;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
-import com.simbirsoft.junit5.components.GoogleSearchPage;
-import org.junit.jupiter.api.Test;
+import com.simbirsoft.junit5.pages.GoogleSearchPage;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class CsvSourceParameterizedTest extends TestBase {

@@ -1,7 +1,7 @@
 package com.simbirsoft.junit5.tests;
 
 import com.codeborne.selenide.Selenide;
-import com.simbirsoft.junit5.components.GoogleSearchPage;
+import com.simbirsoft.junit5.pages.GoogleSearchPage;
 import com.simbirsoft.junit5.domain.GoogleMenuItem;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;

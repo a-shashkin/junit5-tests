@@ -1,4 +1,4 @@
-package com.simbirsoft.junit5.components;
+package com.simbirsoft.junit5.pages;
 
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
@@ -27,13 +27,6 @@ public class SearchResultsPage {
     public void checkPresenceOfPics(int resultIndex, String expectedResult) {
         picsSearchResults.get(resultIndex).shouldHave(Condition.text(expectedResult));
     }
-
-//    public void methodSearch(List<String> options) {
-//        Iterator<String> iterator = options.iterator();
-//        while (iterator.hasNext()) {
-//            searchResults.shouldHave(CollectionCondition.textsInAnyOrder(options));
-//        }
-//    }
 
     public void checkPresenceOfListOfResults(List<String> options) {
         Iterator<String> iterator = options.iterator();
